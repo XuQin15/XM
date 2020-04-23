@@ -1,4 +1,4 @@
-第一题
+第四题
 var arr1 = [0, 1, 2, 3, 4, 5];
 	var arr2 = [0, 4, 6, 1, 3, 9];
 
@@ -8,7 +8,7 @@ var arr1 = [0, 1, 2, 3, 4, 5];
 		});
 	}
 	console.log(getArrDifference(arr1, arr2));
-第二题
+第五题
 var num1 = prompt("请输入数字：");
 	function isReverse(num) {
 		var sNum = String(num).split('').reverse().join('') - 0;
@@ -16,17 +16,18 @@ var num1 = prompt("请输入数字：");
 	}	
 	console.log(isReverse(parseInt(num1)));
 	
-第三题
-function getStringLength(str) {
-		var slength = 0;
-		for(i = 0; i < str.length; i++) {
-			if((str.charCodeAt(i) >= 0) && (str.charCodeAt(i) <= 255))
-				slength = slength + 1;
-			else
-				slength = slength + 2;
-		}
-		return slength;
-};
+第六题
+function getStringLength(str){  
+  var slength=0;  
+  for(i=0;i<str.length;i++){  
+   if ((str.charCodeAt(i)>=0) && (str.charCodeAt(i)<=255))  
+     slength=slength+1;  
+   else  
+     slength=slength+2;  
+  }   
+  return slength;  
+};  
+
 第八题
 
 var timestamp = Date.parse(new Date());
